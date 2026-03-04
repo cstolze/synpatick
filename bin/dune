@@ -1,0 +1,6 @@
+(executable
+ (name synpa_js)
+ (modes js)
+ (libraries js_of_ocaml synpa)
+ (preprocess (pps js_of_ocaml-ppx))
+)
